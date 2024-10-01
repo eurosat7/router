@@ -1,0 +1,21 @@
+{
+  "name": "eurosat7/router",
+  "description": "router example",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "eurosat7",
+      "email": "eurosat7@yahoo.de"
+    }
+  ],
+  "require": {
+    "php" : "8.3",
+    "ext-http": "*"
+  },
+  "autoload" : {
+    "psr-4": {
+      "app" : "src/"
+    }
+  }
+}
